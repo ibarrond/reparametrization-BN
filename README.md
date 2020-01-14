@@ -1,2 +1,2 @@
 # Reparametrization of FullyConnected/Convolutional Layers to absorb Batch Normalization
-This repository serves as quick example on how to apply reparametrization to a Neural Network, allowing the complete absortion of 
+This repository serves as quick example on how to apply reparametrization to a Neural Network, allowing the partial or even complete absortion of Batch Normalization layers by previous Dense / Convolutional layers. This technique can be applied at **inference/classification** step to speed up computations. It has no efect on the *training* phase, as it still requires standard training to be carried out.
